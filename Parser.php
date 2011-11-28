@@ -40,8 +40,7 @@
 	
 	public $content;
 	
-	public function findAdds;
-	
+	public function findAdds() {
 	
 	}
 ?>
