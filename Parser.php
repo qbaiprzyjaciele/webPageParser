@@ -4,7 +4,8 @@
 	*/
 	class HTMLContent {
 
-		private $url;		
+		private $url;	
+		public $variablesNum;
 		public $variables[];
 		
 		/**
@@ -13,6 +14,8 @@
 		public function init() {
 			
 			}
+			
+		
 		
 		/**
 		* Constructs and initialises basic properties
@@ -23,9 +26,22 @@
 			$this->url = $url;
 			$this->method = $method;
 		}
+		
+		/**
+		* Makes a string for curl including variables.
+		*/
+		private function makeString() {
+		
+		}
 	
 	}
 	
 	class Parser {
+	
+	public $content;
+	
+	public function findAdds;
+	
+	
 	}
 ?>
