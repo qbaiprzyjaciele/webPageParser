@@ -7,6 +7,7 @@
 		private $url;	
 		public $variablesNum;
 		public $variables[];
+		public $method;
 		
 		/**
 		* Initialises curl options
@@ -14,8 +15,6 @@
 		public function init() {
 			
 			}
-			
-		
 		
 		/**
 		* Constructs and initialises basic properties
