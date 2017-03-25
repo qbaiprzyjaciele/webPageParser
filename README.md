@@ -1,0 +1,3 @@
+# webPageParser
+My ancient attempt to create local job offers parser.
+Brings back memories...
